@@ -79,3 +79,35 @@ $n=12
 $n=11
 $n=10
 ```
+エスケープシーケンス  
+文字れるで表示できないような文字列を表示したいときに使用  
+オプション￥でバックスラッシュ\  
+\nで改行  
+\rでキャッジリターン  
+などなど  
+
+```
+<?php
+$variable = 0.25;  //小数代入
+var_dump($variable);
+echo "<br>";
+$variable = PHP;  //文字列代入
+var_dump($variable);
+echo "<br>";
+$variable = true;  //論理値代入
+var_dump($variable);
+echo "<br>";
+$variable = null;  //null代入
+var_dump($variable);
+echo "<br>";
+unset($variable);//消去
+# var_dump($variable);
+?>
+
+
+ブラウザ
+float(0.25)
+string(3) "PHP"
+bool(true)
+NULL
+```
