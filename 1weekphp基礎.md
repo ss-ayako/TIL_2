@@ -111,3 +111,7 @@ string(3) "PHP"
 bool(true)
 NULL
 ```
+var_dumpは関数   
+()内の変数の型や値の情報を返すもの    
+unset関数  
+変数そのものを削除  
