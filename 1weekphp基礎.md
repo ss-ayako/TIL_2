@@ -12,3 +12,15 @@ echo $a . "+" . $b . "=" . $c;
 ?>
 ```
 ***
+```
+<?php
+$hensu = 5;
+echo "1回目の変数の値:{$hensu}<br>";
+$hensu = 10; //値変更
+echo "2回目の変数の値:{$hensu}<br>";
+$hensu = $hensu+3; //変数に３たす
+echo "3回目の変数の値:{$hensu}<br>";
+$hensu += 3 ; //変数に３たす
+echo "4回目の変数の値:{$hensu}<br>";
+?>
+```
