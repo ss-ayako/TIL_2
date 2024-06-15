@@ -138,7 +138,7 @@ unset関数
     //$sに初期値を代入
     $str = "Hello";
     //$strの末尾に”World"を追加
-    $str =  $str. "World";
+    $str =  $str. "World";  //ここ、$str.="World";でもOK 
     //結果を表示
     echo $str;
 
@@ -147,5 +147,5 @@ unset関数
 </body>
 
 </html>
-//$str.="World";でもOK  
+ 
 ```
