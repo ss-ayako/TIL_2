@@ -121,4 +121,30 @@ unset関数
 0と１のどちらかでしか表現できない情報の単位をビット  
 このビットが８つ集まった単位をバイト  
 0と１のみで数値を表す表現方法を２進数という  
+```
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>例題3-1</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <h1>文字列変数へのデータの追加</h1>
+  <p>
+    <?php
+
+    //$sに初期値を代入
+    $str = "Hello";
+    //$strの末尾に”World"を追加
+    $str =  $str. "World";
+    //結果を表示
+    echo $str;
+
+    ?>
+  </p>
+</body>
+
+</html>
+```
