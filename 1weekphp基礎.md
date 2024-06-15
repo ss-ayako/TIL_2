@@ -147,4 +147,5 @@ unset関数
 </body>
 
 </html>
+//$str.="World";でもOK  
 ```
