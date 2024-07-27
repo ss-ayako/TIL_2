@@ -273,3 +273,36 @@ if ($temp >= 100) {
   echo '水（液体）です。';
 }
 ```
+# 複雑な条件分岐  
+```
+<?php
+
+$a = "PHP";
+$b = "PHP";
+$c = "Hello";
+
+echo "\$a=$a \$b=$b \$c=$c<br> ";
+//$a、$bともに”PHP"か調べる
+if ($a == "PHP" and $b == "PHP") {
+  echo '$a、$bともに”PHP"です。<br>';
+}
+//$a、$cともに”PHP"か調べる
+if ($a == "PHP" and $c == "PHP") {
+  echo '$a、$cともに"PHP"です。<br>';
+}
+//$a、$bいずれかが”PHP"か調べる
+if ($a == "PHP" or $b == "PHP") {
+  echo '$a、$bいずれかが”PHP"です。<br>';
+}
+//$a、$cいずれか”PHP"か調べる
+if ($a == "PHP" or $c == "PHP") {
+  echo '$a、$cいずれかが"PHP"です。<br>';
+}
+```
+結果
+```
+$a=PHP $b=PHP $c=Hello
+$a、$bともに”PHP"です。
+$a、$bいずれかが”PHP"です。
+$a、$cいずれかが"PHP"です。
+```
