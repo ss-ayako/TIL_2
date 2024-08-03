@@ -10,3 +10,5 @@
 </body>
   </html>
 ```
+- prompt　文字入力ダイアログ
+- confirm 確認ダイアログ  
