@@ -21,4 +21,11 @@ hello,worldというダイアログ
 - 以後　なになに　と書く必要なし、nameでOK
 - 名前はなんでもOK
 - でも、javascriptで使う言葉は使えないif varなど
-- 
+prompt,confirm,alert使ったhtml
+```
+<script>
+  var name = prompt("おなまえは？");
+  confirm(name + "でいいですか？");
+  alert("こんにちは！"+ name + "さん");
+</script>
+```
