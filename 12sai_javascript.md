@@ -29,3 +29,4 @@ prompt,confirm,alert使ったhtml
   alert("こんにちは！"+ name + "さん");
 </script>
 ```
+もし
