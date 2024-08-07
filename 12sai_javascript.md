@@ -50,5 +50,24 @@ if (kakunin == true){
 ```
 - 「==」は右と左が同じことを示している  
 - 「!=」は異なるときを示している  
-
+```
+if(条件){
+処理１
+}else{
+処理２
+}
+trueじゃないかtrueか
+```
+```
+<script>
+  var name = prompt("おなまえは？？");
+  var kakunin = confirm(name + "でいいですか？？");
+  if (kakunin == true){
+    alert("こんにちは！"+ name + "さんよろしくねーーっ");
+  }
+  else{
+    alert("こんにちは！、て、、え？？"+ name + "さんじゃないのね。。。");
+  }
+</script>
+```
 
