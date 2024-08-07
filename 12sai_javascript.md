@@ -70,4 +70,14 @@ trueじゃないかtrueか
   }
 </script>
 ```
-
+```
+<script>
+  var name = prompt("おなまえは？？");
+  var sippo = prompt("突然ですが、問題です！パンダのしっぽの色は？");
+  if (sippo == "白"){
+    alert("正解！！さすが"+ name +"さん");
+  }else{
+    alert(name +"さん、残念。白でした！");
+  }
+</script>
+```
