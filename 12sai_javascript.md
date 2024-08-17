@@ -120,3 +120,14 @@ trueじゃないかtrueか
   }
 </script>
 ```
+```
+<script>
+  var menseki = prompt("たて3センチ、よこ4センチの四角形の面積は？");
+  var seikai = 3 * 4;
+  if(menseki == seikai){
+    alert("正解。");
+  }else{
+    alert("残念。正解は、" + seikai + "平方センチメートルです。");
+  }
+</script>
+```
