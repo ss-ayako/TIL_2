@@ -131,3 +131,42 @@ trueじゃないかtrueか
   }
 </script>
 ```
+```
+<script>
+  var keisan1 = prompt("3 + 52 = ?");
+  var seikai1 = 3 + 52;
+  if(keisan1 == seikai1){
+    alert(keisan1 + "です。正解。");
+  }else{
+    alert("残念。正解は、" + seikai1 + "です。");
+  }
+  var keisan2 = prompt("596 - 493 = ?");
+  var seikai2 = 596 - 493;
+  if(keisan2 == seikai2){
+    alert(keisan2 + "です。正解。");
+  }else{
+    alert("残念。正解は、" + seikai2 + "です。");
+  }
+  var keisan3 = prompt("123 × 4 = ?");
+  var seikai3 = 123 * 4;
+  if(keisan3 == seikai3){
+    alert(keisan3 + "です。正解。");
+  }else{
+    alert("残念。正解は、" + seikai3 + "です。");
+  }
+  var keisan4 = prompt("121 ÷ 11 = ?");
+  var seikai4 = 123 / 4;
+  if(keisan4 == seikai4){
+    alert(keisan4 + "です。正解。");
+  }else{
+    alert("残念。正解は、" + seikai4 + "です。");
+  }
+  var keisan5 = prompt("100メートルを10秒で走る人の速さは時速？キロメートルですか。");
+  var seikai5 = 100 / 10 * 60 *60 / 1000;
+  if(keisan5 == seikai5){
+    alert(keisan5 + "です。正解。");
+  }else{
+    alert("残念。正解は、時速" + seikai5 + "キロメートルです。");
+  }
+</script>
+```
