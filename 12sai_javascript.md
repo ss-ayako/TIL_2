@@ -266,3 +266,8 @@ trueじゃないかtrueか
   alert(tasu);
 </script>
 ```
+```
+<script>
+  alert(1+2+3);
+</script>
+```
