@@ -259,3 +259,10 @@ trueじゃないかtrueか
       }
 </script>
 ```
+# 繰り返し  
+```
+<script>
+  var tasu = 1 + 2 + 3;
+  alert(tasu);
+</script>
+```
