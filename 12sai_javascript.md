@@ -271,6 +271,7 @@ trueじゃないかtrueか
   alert(1+2+3);
 </script>
 ```
+# for文  
 ```<script>
   var tasu = 0;
   for (var i = 1;i<= 10;i=i+1){
