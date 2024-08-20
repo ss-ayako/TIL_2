@@ -271,3 +271,11 @@ trueじゃないかtrueか
   alert(1+2+3);
 </script>
 ```
+```<script>
+  var tasu = 0;
+  for (var i = 1;i<= 10;i=i+1){
+    tasu = tasu +i;
+  }
+  alert(tasu);
+</script>
+```
