@@ -299,3 +299,12 @@ iが10より小さいか等しい間、繰り返しの処理を行う
 for(最初に変数iを1にする;iが100より小さいか等しい間;毎回１ずつ足す）{  
 変数tasuとiを足して、もう一度tasuに入れる  
 }  
+```
+<script>
+  var goukei = 0;
+  for (var i = 2;i <= 100;i = i + 1){
+    goukei = goukei + i;
+  }
+  alert(goukei);
+</script>
+```
