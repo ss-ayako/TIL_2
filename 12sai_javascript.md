@@ -308,3 +308,12 @@ for(最初に変数iを1にする;iが100より小さいか等しい間;毎回�
   alert(goukei);
 </script>
 ```
+```
+<script>
+  var goukei = 0;
+  for (var i = 5;i <= 100;i = i + 1){
+    goukei = goukei + i;
+  }
+  alert(goukei);
+</script>
+```
