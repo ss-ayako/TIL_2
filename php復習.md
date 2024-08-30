@@ -265,5 +265,28 @@
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Progate</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+  <?php
+
+    // この下にfor文を書いてください
+    for($i=51;$i<=100;$i++){
+      echo $i;
+      echo '<br>';
+    }
+    
+  ?>
+
+</body>
+</html>
+```
 - これまでの変数が一つしか値を扱えなかったのに対し、配列を用いると複数の値をまとめて保存することができます。
 - 配列は仕切りのある箱のようなもので、それぞれのスペースにデータが入っており、0, 1, 2...というインデックス番号によってスペースの名前が付けられています。
