@@ -218,5 +218,27 @@
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Progate</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+  <?php
+
+    // この下に配列を作ってください
+    $colors = array("赤","青","黄");
+    echo $colors[0];
+    $colors [] ="白";
+    echo $colors[3];
+  ?>
+
+</body>
+</html>
+```
 - これまでの変数が一つしか値を扱えなかったのに対し、配列を用いると複数の値をまとめて保存することができます。
 - 配列は仕切りのある箱のようなもので、それぞれのスペースにデータが入っており、0, 1, 2...というインデックス番号によってスペースの名前が付けられています。
