@@ -240,5 +240,30 @@
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Progate</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+  <?php
+
+    // この下に連想配列を作ってください
+    $scores = array(
+      "数学" => 70,
+      "英語" => 90,
+      "国語" => 80,
+    );
+    $scores["国語"]+=5;
+    echo $scores["国語"];
+  ?>
+
+</body>
+</html>
+```
 - これまでの変数が一つしか値を扱えなかったのに対し、配列を用いると複数の値をまとめて保存することができます。
 - 配列は仕切りのある箱のようなもので、それぞれのスペースにデータが入っており、0, 1, 2...というインデックス番号によってスペースの名前が付けられています。
