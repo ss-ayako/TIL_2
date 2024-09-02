@@ -376,3 +376,14 @@ alert(goukei);
     alert(line);
 </script>
 ```
+```
+<script>
+  var tasu = 0;
+  var i = 1;
+  while(i<=10){
+    tasu = tasu + i;
+    i = i+ 1;
+  }
+  alert(tasu);
+</script>
+```
