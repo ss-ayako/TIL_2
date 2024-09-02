@@ -363,3 +363,16 @@ alert(goukei);
   alert(line);
 </script>
 ```
+```
+<script>
+  var line = "";
+  for(var i = 0; i < 10;i++){
+    if (i % 2 ==1){
+      line = line + "バカ";
+    } else {
+        line = line + "あほ";
+      }
+    }
+    alert(line);
+</script>
+```
