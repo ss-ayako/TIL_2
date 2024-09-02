@@ -387,3 +387,14 @@ alert(goukei);
   alert(tasu);
 </script>
 ```
+```
+<script>
+  var i = 0;
+  var goukei = 0;
+  while(goukei<=100){
+    i = i+ 1;
+    goukei = goukei + i;
+  }
+  alert(i + "回すと、" + goukei + "になりました。");
+</script>
+```
