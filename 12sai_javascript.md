@@ -334,3 +334,11 @@ alert(goukei);
 </script>
 ```
 ```
+<script>
+  for (var i = 0;i < 3;i++){
+    for (var j = 0;j < 10;j++){
+  alert("バカ");
+    }
+    }
+</script>
+```
