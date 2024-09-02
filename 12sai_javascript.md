@@ -342,3 +342,12 @@ alert(goukei);
     }
 </script>
 ```
+```
+<script>
+  var line = "";
+  for(var j = 0;j < 10; j++){
+    line =line + "バカ";
+  }
+  alert(line);
+</script>
+```
