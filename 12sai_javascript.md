@@ -326,3 +326,11 @@ for(最初に変数iを1にする;iが100より小さいか等しい間;毎回�
 alert(goukei);
 </script>
 ```
+```
+<script>
+  for (var i =0; i < 30; i++){
+    alert("バカ");
+  }
+</script>
+```
+```
