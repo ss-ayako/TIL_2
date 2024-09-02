@@ -351,3 +351,15 @@ alert(goukei);
   alert(line);
 </script>
 ```
+```
+<script>
+  var line = "";
+  for(var i = 0; i < 3;i++){
+    for(var j = 0; j < 3;j++){
+     line = line +"バカ";
+    }
+    line = line + "\n";
+  }
+  alert(line);
+</script>
+```
