@@ -398,3 +398,19 @@ alert(goukei);
   alert(i + "回すと、" + goukei + "になりました。");
 </script>
 ```
+```
+<script>
+  var i = 0;
+  var goukei = 0;
+  while (goukei <= 1000000){
+    i = i + 1;
+    goukei = goukei + i;
+  }
+  alert(i + "回すと、" + goukei + "になりました。");
+</script>
+```
+- iを０にする
+- 変数goukeiを0にする
+- goukeiが1000000より小さいか等しい間、
+- iに１足してもう一度iに入れる
+- goukeiとiを足してもう一度goukeiに入れる
