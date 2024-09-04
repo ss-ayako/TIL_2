@@ -427,3 +427,16 @@ alert(goukei);
 - while kotaeが2と等しくない間
 - １÷０.５を表示して入力をkotaeに代入する
 - 正解と表示する
+```
+<script>
+  do{
+    var kotae = prompt("1÷0.5 =","");
+  } while (kotae !="2");
+  alert("正解！");
+</script>
+```
+- さっきのと同じ処理。
+- do{
+- 繰り返すプログラム
+- }
+- while(条件の式）;
