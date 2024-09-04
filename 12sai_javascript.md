@@ -414,3 +414,16 @@ alert(goukei);
 - goukeiが1000000より小さいか等しい間、
 - iに１足してもう一度iに入れる
 - goukeiとiを足してもう一度goukeiに入れる
+```
+<script>
+  var kotae = "";
+  while (kotae !="2"){
+    kotae = prompt("1 ÷ 0.5 =","");
+  }
+  alert("正解！");
+</script>
+```
+- 変数kotaeを””にする
+- while kotaeが2と等しくない間
+- １÷０.５を表示して入力をkotaeに代入する
+- 正解と表示する
