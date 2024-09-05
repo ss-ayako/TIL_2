@@ -440,3 +440,15 @@ alert(goukei);
 - 繰り返すプログラム
 - }
 - while(条件の式）;
+```
+<script>
+  var goukei = 0;
+  for(var i = 1;i<=100;i = i+1){
+    goukei = goukei + i;
+    if(goukei > 1000){
+      break;
+    }
+  }
+  alert(goukei);
+</script>
+```
