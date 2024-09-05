@@ -452,3 +452,33 @@ alert(goukei);
   alert(goukei);
 </script>
 ```
+```
+<script>
+  var name = prompt("おなまえは？","");
+  while(true){
+    var keisan = prompt("3.14 * 2 = ","");
+    if(keisan != "6.28"){
+      alert("はずれ。");
+      continue;
+    }
+    alert("正解");
+
+    var kisetu = prompt("では、南半球でクリスマスの時の季節は？","");
+  if(kisetu != "夏"){
+      alert("はずれ。");
+      continue;
+    }
+    alert("正解");
+
+    var ongaku = prompt("楽譜で、音の一時的な休止を示す記号は？","");
+  if(ongaku != "休符"){
+      alert("はずれ。");
+      continue;
+    }
+    alert("正解");
+    break;
+  }
+  alert("全問正解おめでとう！！すごいね！"+name+"さん");
+
+</script>
+```
