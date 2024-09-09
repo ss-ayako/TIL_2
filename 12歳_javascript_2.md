@@ -30,3 +30,19 @@ if (kotae == 245){
   alert("残念！");
 }
 ```
+```
+var kotae = prompt("「芬蘭」の読み仮名は？","");
+if (kotae == "フィンランド" || kotae == "ふぃんらんど"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+```
+```
+var  kotae = prompt("昆虫の足は何本？","");
+if(kotae == "6"||kotae == "６"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+```
