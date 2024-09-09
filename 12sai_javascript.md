@@ -1,3 +1,4 @@
+１〜３章
 hello,worldというダイアログ  
 ```
 <html>
@@ -482,3 +483,4 @@ alert(goukei);
 
 </script>
 ```
+1~3章ここまで！
