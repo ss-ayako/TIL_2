@@ -21,3 +21,12 @@ alert("こんにちは!"+ onamae + "さん");
   <script src="konichiha.js"></script>
 </html>
 ```
+- これで文字化け解決！！
+```
+var kotae = prompt("7×35=","");
+if (kotae == 245){
+  alert("正解です！");
+}else{
+  alert("残念！");
+}
+```
