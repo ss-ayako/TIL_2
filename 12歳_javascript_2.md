@@ -12,3 +12,12 @@ var onamae = prompt("おなまえは？","");
 alert("こんにちは!"+ onamae + "さん");
 ```
 - jsいきなり書いてOK
+```
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>挨拶ページ</title>
+  </head>
+  <script src="konichiha.js"></script>
+</html>
+```
