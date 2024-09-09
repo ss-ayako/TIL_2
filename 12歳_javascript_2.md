@@ -1,5 +1,5 @@
 4章！！
-ファイルを分ける
+#ファイルを分ける
 ```
 <html>
   <script src="konichiha.js"></script>
