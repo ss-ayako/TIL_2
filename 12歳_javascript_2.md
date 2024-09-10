@@ -46,3 +46,11 @@ if(kotae == "6"||kotae == "６"){
   alert("残念！");
 }
 ```
+```
+var kotae = prompt("北海道の県庁所在地は？","");
+if (kotae == "札幌"||kotae=="さっぽろ"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+```
