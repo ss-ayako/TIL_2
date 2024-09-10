@@ -54,3 +54,17 @@ if (kotae == "札幌"||kotae=="さっぽろ"){
   alert("残念！");
 }
 ```
+- 追記して実行！
+```
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>挨拶ページ</title>
+  </head>
+  <script src="konichiha.js"></script>
+  <script src="sansu.js"></script>
+  <script src="kokugo.js"></script>
+  <script src="rika.js"></script>
+  <script src="shakai.js"></script>
+</html>
+```
