@@ -82,3 +82,17 @@ if (kotae == 59){
   alert("残念！");
 }
 ```
+```
+var kotae = prompt("「芬蘭」の読み仮名は？","");
+if (kotae == "フィンランド" || kotae == "ふぃんらんど"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+var kotae = prompt("「細魚」の読み仮名は？","");
+if (kotae == "さより"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+```
