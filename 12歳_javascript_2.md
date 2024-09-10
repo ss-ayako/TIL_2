@@ -68,3 +68,17 @@ if (kotae == "札幌"||kotae=="さっぽろ"){
   <script src="shakai.js"></script>
 </html>
 ```
+```
+var kotae = prompt("7×35=","");
+if (kotae == 245){
+  alert("正解です！");
+}else{
+  alert("残念！");
+}
+var kotae=prompt("112-53=","");
+if (kotae == 59){
+  alert("正解です！");
+}else{
+  alert("残念！");
+}
+```
