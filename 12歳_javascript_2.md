@@ -128,3 +128,17 @@ if (kotae == 59){
 }
 alert("点数は"+ seikai +"点です");
 ```
+```
+<script>
+  var heiretsu = [];
+  heiretsu[0] ="算数";
+  heiretsu[1] ="国語";
+  heiretsu[2] ="理科";
+  heiretsu[3] ="社会";
+  heiretsu[4] ="英語";
+  heiretsu[4] ="体育";
+  for(var i = 0;i < 6 ;i++){
+    alert(hairetsu[i]);
+  }
+</script>
+```
