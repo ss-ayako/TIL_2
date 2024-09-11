@@ -110,3 +110,21 @@ if(kotae == "酸素"||kotae == "さんそ"){
   alert("残念！");
 }
 ```
+```
+var seikai= 0;
+var kotae = prompt("7×35=","");
+if (kotae == 245){
+  alert("正解です！");
+  seikai = seikai + 1;
+}else{
+  alert("残念！");
+}
+var kotae=prompt("112-53=","");
+if (kotae == 59){
+  alert("正解です！");
+  seikai = seikai + 1;
+}else{
+  alert("残念！");
+}
+alert("点数は"+ seikai +"点です");
+```
