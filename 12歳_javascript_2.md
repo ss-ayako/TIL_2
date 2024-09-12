@@ -182,3 +182,18 @@ if (kotae == "さより"){
 }
 tensu[1]= seikai;
 ```
+```
+var  kotae = prompt("昆虫の足は何本？","");
+if(kotae == "6"||kotae == "６"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+var  kotae = prompt("光合成では空気中の二酸化炭素を吸収し⚪︎⚪︎を放出しています、それは何でしょうか？","");
+if(kotae == "酸素"||kotae == "さんそ"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+tensu[2]= seikai;
+```
