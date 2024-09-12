@@ -148,3 +148,37 @@ var tensu = [0,0,0,0];
 - tensu という配列
 - 4つの初期値（すべて 0）を持っています。
 - 配列の要素には、インデックス番号（0から始まる）でアクセスして値を取得・変更できます。
+```
+var seikai= 0;
+var kotae = prompt("7×35=","");
+if (kotae == 245){
+  alert("正解です！");
+  seikai = seikai + 1;
+}else{
+  alert("残念！");
+}
+var kotae=prompt("112-53=","");
+if (kotae == 59){
+  alert("正解です！");
+  seikai = seikai + 1;
+}else{
+  alert("残念！");
+}
+tensu[0]= seikai;
+```
+- tensu[0]= seikai;を足した。
+```
+var kotae = prompt("「芬蘭」の読み仮名は？","");
+if (kotae == "フィンランド" || kotae == "ふぃんらんど"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+var kotae = prompt("「細魚」の読み仮名は？","");
+if (kotae == "さより"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+tensu[1]= seikai;
+```
