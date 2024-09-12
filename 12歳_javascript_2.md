@@ -197,3 +197,18 @@ if(kotae == "酸素"||kotae == "さんそ"){
 }
 tensu[2]= seikai;
 ```
+```
+var kotae = prompt("北海道の県庁所在地は？","");
+if (kotae == "札幌"||kotae=="さっぽろ"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+var kotae = prompt("日本で一番高い山は？","");
+if (kotae == "富士山"){
+  alert("正解！");
+}else{
+  alert("残念！");
+}
+tensu[3]= seikai;
+```
