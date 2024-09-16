@@ -229,3 +229,13 @@ alert("合計点は"+goukei+"点、"+"平均点は"+ heikin + "点でした。")
 var goukei = tensu[0] + tensu[1] + tensu[2] + tensu[3];
 var heikin = goukei / 4;
 ```
+- これも
+```
+var sansu = tensu[0];
+var kokugo = tensu[1];
+var rika = tensu[2];
+var shakai = tensu[3];
+
+var goukei = sansu + kokugo + rika + shakai;
+var heikin = goukai / 4;
+```
