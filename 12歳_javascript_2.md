@@ -215,4 +215,17 @@ tensu[3]= seikai;
 - 算数の点数を０、国語の点数を１、理科の点数を２、社会の点数を３に
 - 平均点というのは全教科の点数÷教科の数
 - 算数の点数＋国語の点数＋理科の点数＋社会の点数÷４となる
-- 
+  ```
+  var goukei =0;
+for(var i = 0;i < 4;i++){
+  goukei = goukei + tensu[i];
+}
+var heikin = goukei / 4;
+
+alert("合計点は"+goukei+"点、"+"平均点は"+ heikin + "点でした。");
+```
+- これでもOK
+```
+var goukei = tensu[0] + tensu[1] + tensu[2] + tensu[3];
+var heikin = goukei / 4;
+```
