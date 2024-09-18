@@ -245,6 +245,7 @@ if(goukei==8){
   alert(onamae +"さん、全問正解おめでとう！");
 }
 ```
+- heiretsuとかしてて初め社会までしか動かなかった
 ```
 <html>
   <head>
