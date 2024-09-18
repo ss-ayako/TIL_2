@@ -239,3 +239,9 @@ var shakai = tensu[3];
 var goukei = sansu + kokugo + rika + shakai;
 var heikin = goukai / 4;
 ```
+- 全問正解バージョン
+```
+if(goukei==8){
+  alert(onamae +"さん、全問正解おめでとう！");
+}
+```
