@@ -245,3 +245,19 @@ if(goukei==8){
   alert(onamae +"さん、全問正解おめでとう！");
 }
 ```
+```
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>挨拶ページ</title>
+  </head>
+  <script src="hairetsu.js"></script>
+  <script src="konichiha.js"></script>
+  <script src="sansu.js"></script>
+  <script src="kokugo.js"></script>
+  <script src="rika.js"></script>
+  <script src="shakai.js"></script>
+  <script src="goukei.js"></script>
+  <script src="zenmonseikai.js"></script>
+</html>
+```
