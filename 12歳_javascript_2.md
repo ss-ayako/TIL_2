@@ -168,45 +168,54 @@ tensu[0]= seikai;
 ```
 - tensu[0]= seikai;を足した。
 ```
+var seikai= 0;
 var kotae = prompt("「芬蘭」の読み仮名は？","");
 if (kotae == "フィンランド" || kotae == "ふぃんらんど"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
 var kotae = prompt("「細魚」の読み仮名は？","");
 if (kotae == "さより"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
 tensu[1]= seikai;
 ```
 ```
+var seikai= 0;
 var  kotae = prompt("昆虫の足は何本？","");
 if(kotae == "6"||kotae == "６"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
 var  kotae = prompt("光合成では空気中の二酸化炭素を吸収し⚪︎⚪︎を放出しています、それは何でしょうか？","");
 if(kotae == "酸素"||kotae == "さんそ"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
 tensu[2]= seikai;
 ```
 ```
+var seikai= 0;
 var kotae = prompt("北海道の県庁所在地は？","");
 if (kotae == "札幌"||kotae=="さっぽろ"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
 var kotae = prompt("日本で一番高い山は？","");
 if (kotae == "富士山"){
   alert("正解！");
+seikai = seikai + 1;
 }else{
   alert("残念！");
 }
