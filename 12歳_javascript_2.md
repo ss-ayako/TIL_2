@@ -143,6 +143,7 @@ alert("点数は"+ seikai +"点です");
 </script>
 ```
 ```
+hairetsu.js
 var tensu = [0,0,0,0];
 ```
 - tensu という配列
@@ -225,6 +226,7 @@ tensu[3]= seikai;
 - 平均点というのは全教科の点数÷教科の数
 - 算数の点数＋国語の点数＋理科の点数＋社会の点数÷４となる
 ```
+goukei.js
 var goukei =0;
 for(var i = 0;i < 4;i++){
   goukei = goukei + tensu[i];
@@ -250,6 +252,7 @@ var heikin = goukai / 4;
 ```
 - 全問正解バージョン
 ```
+zenmonseikai.js
 if(goukei==8){
   alert(onamae +"さん、全問正解おめでとう！");
 }
