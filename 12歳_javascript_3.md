@@ -41,3 +41,12 @@ function konichiwa(tento){
   alert("こんにちは！"+ tento +"さん");
 }
 ```
+```
+<html>
+  <meta charset="UTF-8" />
+  <script type ="text/javascript"src="konichiwa.js"></script>
+  <script>
+    konichiwa("テント");//引数に”テント”を渡す
+  </script>
+</html>
+```
