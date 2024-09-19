@@ -60,3 +60,47 @@ if(kotae == ""){
   alert (kotae + "ですか！僕と同じですね。");
 }
 ```
+```
+shitsumon.js
+var kotae = prompt("好きな食べ物は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert (kotae + "ですか！僕と同じですね。");
+}
+
+var kotae = prompt("嫌いな食べ物は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert ("え？！" + kotae + "ぼくは好きだよ.");
+}
+
+var kotae = prompt("行きたい国は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert (kotae + "かぁ。行けるといいね！！");
+}
+
+var kotae = prompt("明日の予定は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert (kotae + "？それって美味しいの？");
+}
+
+var kotae = prompt("今年の目標は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert ("ふーん" + kotae + "ね、頑張ってね");
+}
+
+var kotae = prompt("休みの日は何するの？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert (kotae + "はいいね、今度一緒にやろう。");
+}
+```
