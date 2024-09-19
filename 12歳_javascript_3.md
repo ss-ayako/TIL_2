@@ -18,3 +18,6 @@ function konichiwa(){
   alert("こんにちは！");
 }
 ```
+- function 関数の名前(){
+- 関数の中身
+- }という構造。
