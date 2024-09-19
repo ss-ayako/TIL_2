@@ -12,3 +12,9 @@ aisatsu.html
   <script type ="text/javascript"src="konichiwa.js"></script>
 </html>
 ```
+```
+konichiwa.js書き換え
+function konichiwa(){
+  alert("こんにちは！");
+}
+```
