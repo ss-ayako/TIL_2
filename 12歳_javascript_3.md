@@ -21,3 +21,13 @@ function konichiwa(){
 - function 関数の名前(){
 - 関数の中身
 - }という構造。
+```
+aisatsu.html書き換え
+<html>
+  <meta charset="UTF-8" />
+  <script type ="text/javascript"src="konichiwa.js"></script>
+  <script>
+    konichiwa();　//ここから関数を呼び出す
+  </script>
+</html>
+```
