@@ -42,6 +42,7 @@ function konichiwa(tento){
 }
 ```
 ```
+aisatsu.html書き換え
 <html>
   <meta charset="UTF-8" />
   <script type ="text/javascript"src="konichiwa.js"></script>
@@ -49,4 +50,13 @@ function konichiwa(tento){
     konichiwa("テント");//引数に”テント”を渡す
   </script>
 </html>
+```
+```
+shitsumon.js
+var kotae = prompt("好きな食べ物は？","");
+if(kotae == ""){
+  alert("?");
+}else{
+  alert (kotae + "ですか！僕と同じですね。");
+}
 ```
