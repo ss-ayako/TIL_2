@@ -35,3 +35,9 @@ aisatsu.html書き換え
 - 関数の中身
 - }という構造。
 - 引数がご飯、体が関数、うんこが戻り値
+```
+konichiwa.js書き換え
+function konichiwa(tento){
+  alert("こんにちは！"+ tento +"さん");
+}
+```
