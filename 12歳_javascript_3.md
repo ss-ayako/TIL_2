@@ -106,3 +106,21 @@ if(kotae == ""){
 ```
 - 一問ごとにプログラム書くの大変
 - そこで関数を使おう！
+```
+shitsumon2.js
+function shitsumon(question,answer1,answer2){
+  var kotae = prompt(question,"");
+  if(kotae == ""){
+    alert("?");
+  }else{
+    alert(answer1 + kotae + answer2);
+  }
+}function shitsumon(question,answer1,answer2){
+  var kotae = prompt(question,"");
+  if(kotae == ""){
+    alert("?");
+  }else{
+    alert(answer1 + kotae + answer2);
+  }
+}
+```
