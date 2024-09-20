@@ -125,6 +125,7 @@ function shitsumon(question,answer1,answer2){
 }
 ```
 - 追記した
+- 引数に文字を入れて渡す
 ```
 function shitsumon(question,answer1,answer2){
   var kotae = prompt(question,"");
@@ -147,4 +148,10 @@ aisatsu3.html
   <meta charset="UTF-8" />
   <script src = "shitsumon2.js"></script>
 </html>
+```
+- 引数に数字を入れる
+```
+function tasu(a,b){
+  alert(a+b);
+}
 ```
