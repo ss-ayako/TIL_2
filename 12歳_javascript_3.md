@@ -155,3 +155,13 @@ function tasu(a,b){
   alert(a+b);
 }
 ```
+```
+hikisuu.html
+<html>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src="tashizan.js"></script>
+  <script>
+    tasu(5,7);
+  </script>
+</html>
+```
