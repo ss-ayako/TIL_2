@@ -124,3 +124,20 @@ function shitsumon(question,answer1,answer2){
   }
 }
 ```
+- 追記した
+```
+function shitsumon(question,answer1,answer2){
+  var kotae = prompt(question,"");
+  if(kotae == ""){
+    alert("？");
+  }else{
+    alert(answer1 + kotae + answer2);
+  }
+}
+shitsumon("すきな食べ物は？","","ですか！ぼくと同じですね。");
+shitsumon("嫌いな食べ物は？","え〜！","ぼくは好きだよ。");
+shitsumon("行きたい国は？","","かあ〜 行けるといいねえ〜");
+shitsumon("明日の予定は？","","?それっておいしいの？");
+shitsumon("今年の目標は？","ふーん。","ね。がんばってね。");
+shitsumon("休みの日は何するの？","","は、いいね。こんどいっしょにしよう。");
+```
