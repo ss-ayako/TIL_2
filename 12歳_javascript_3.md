@@ -141,3 +141,10 @@ shitsumon("明日の予定は？","","?それっておいしいの？");
 shitsumon("今年の目標は？","ふーん。","ね。がんばってね。");
 shitsumon("休みの日は何するの？","","は、いいね。こんどいっしょにしよう。");
 ```
+```
+aisatsu3.html
+<html>
+  <meta charset="UTF-8" />
+  <script src = "shitsumon2.js"></script>
+</html>
+```
