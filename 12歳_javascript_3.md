@@ -174,4 +174,10 @@ hikisuu.html
  関数の中身  
 return 戻り値;  
  }  
-- 
+***
+```
+suujimodorichi.js
+function suujikaesu(){
+  return 100; //suujikaesu 関数は呼び出されると、常に 100 を返す
+}
+```
