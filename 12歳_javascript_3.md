@@ -209,3 +209,8 @@ function tento(){
   return "テントくん";
 }
 ```
+```
+function mijiretsu (a,b){
+alert(a + b);
+}
+```
