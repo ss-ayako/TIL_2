@@ -181,3 +181,15 @@ function suujikaesu(){
   return 100; //suujikaesu 関数は呼び出されると、常に 100 を返す
 }
 ```
+```
+modorichi.html
+<html>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src="suujimodorichi.js">
+  </script>
+  <script>
+    var suuji = suujikaesu();
+    alert(suuji+10);
+  </script>
+</html>
+```
