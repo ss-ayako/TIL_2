@@ -199,3 +199,8 @@ modorichi.html
 - １０足して表示
 - １００＋１０で１１０が表示される
 # 戻り値で文字を返す  
+```
+function tensai(){
+  return "天才！";
+}
+```
