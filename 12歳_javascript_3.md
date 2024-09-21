@@ -214,3 +214,16 @@ function mijiretsu (a,b){
 alert(a + b);
 }
 ```
+```
+<html>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src="tensai.js"></script>
+  <script type="text/javascript" src="tento.js"></script>
+  <script type="text/javascript" src="mojiretsu.js"></script>
+  <script>
+    var b = tensai();//戻り値：天才！
+    var a = tento();//戻り値：テントくん
+    mojiretsu(a + b);
+  </script>
+</html>
+```
