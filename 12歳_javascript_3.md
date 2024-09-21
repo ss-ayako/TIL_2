@@ -193,3 +193,8 @@ modorichi.html
   </script>
 </html>
 ```
+- suujimodorichiを読み込み
+- suujikaesu()関数呼び出し　これの戻り値１００
+- これを変数suujiに代入
+- １０足して表示
+- １００＋１０で１１０が表示される
