@@ -204,3 +204,8 @@ function tensai(){
   return "天才！";
 }
 ```
+```
+function tento(){
+  return "テントくん";
+}
+```
