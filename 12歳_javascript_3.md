@@ -200,17 +200,20 @@ modorichi.html
 - １００＋１０で１１０が表示される
 # 戻り値で文字を返す  
 ```
+tensai.js
 function tensai(){
   return "天才！";
 }
 ```
 ```
+tento.js
 function tento(){
   return "テントくん";
 }
 ```
 ```
-function mijiretsu (a,b){
+mojiretsu.js
+function mojitasu (a,b){
 alert(a + b);
 }
 ```
@@ -223,7 +226,7 @@ alert(a + b);
   <script>
     var b = tensai();//戻り値：天才！
     var a = tento();//戻り値：テントくん
-    mojiretsu(a + b);
+    mojitasu(a + b);
   </script>
 </html>
 ```
