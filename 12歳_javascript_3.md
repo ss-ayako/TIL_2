@@ -34,7 +34,7 @@ aisatsu.html書き換え
 - function 関数の名前(引数){
 - 関数の中身
 - }という構造。
-- 引数がご飯、体が関数、うんこが戻り値
+ # 引数がご飯、体が関数、うんこが戻り値
 ```
 konichiwa.js書き換え
 function konichiwa(tento){
@@ -105,7 +105,7 @@ if(kotae == ""){
 }
 ```
 - 一問ごとにプログラム書くの大変
-- そこで関数を使おう！
+# そこで関数を使おう！
 ```
 shitsumon2.js
 function shitsumon(question,answer1,answer2){
@@ -125,7 +125,7 @@ function shitsumon(question,answer1,answer2){
 }
 ```
 - 追記した
-- 引数に文字を入れて渡す
+# 引数に文字を入れて渡す
 ```
 function shitsumon(question,answer1,answer2){
   var kotae = prompt(question,"");
@@ -149,7 +149,7 @@ aisatsu3.html
   <script src = "shitsumon2.js"></script>
 </html>
 ```
-- 引数に数字を入れる
+# 引数に数字を入れる
 ```
 function tasu(a,b){
   alert(a+b);
