@@ -269,3 +269,22 @@ function mondai(question,answer){
   }
 }
 ```
+```
+sansu2.js
+すっきり書き換え
+var seikai= 0; //変数を用意する
+
+/* 
+すっきり書き換え
+if (mondai("7 × 35 = ",245) == ture){
+  seikai = seikai + 1;
+}
+if (mondai("112 - 53 = ",59) == ture){
+  seikai = seikai + 1;
+}
+*/
+
+seikai = seikai + mondai("7 × 35 = ",245);
+seikai = seikai + mondai("112 - 53 = ",59);
+tensu[0]= seikai; //点数を保存する
+```
