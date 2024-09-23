@@ -231,3 +231,16 @@ alert(a + b);
 </html>
 ```
 # クイズプログラムをすっきりと！！
+```
+mondai.js
+function mondai(question,answer){
+  var kotae = prompt(question,"");
+  if(kotae == anser){
+    alert("正解！");
+    return true;
+  }else{
+    alert("ざんねん！");
+    return false;
+  }
+}
+```
