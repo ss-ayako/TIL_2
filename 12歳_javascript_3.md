@@ -255,3 +255,17 @@ if (mondai("112 - 53 = ",59) == ture){
 }
 tensu[0]= seikai;
 ```
+- 正解の戻り値を１、不正解の戻り値を０
+- mondaiの戻り値を、変数seikaiに足すプログラムを作る
+```
+function mondai(question,answer){
+  var kotae = prompt(question,"");
+  if(kotae == anser){
+    alert("正解！");
+    return 1;//正解なら１を返す
+  }else{
+    alert("ざんねん！");
+    return 0;//不正解なら０を返す
+  }
+}
+```
