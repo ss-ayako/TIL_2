@@ -320,3 +320,17 @@ seikai= seikai + mondai2("「芬蘭」の読み仮名は？","フィンランド
 seikai = seikai + mondai("「細魚」の読み仮名は？","さより");
 tensu[1]= seikai;
 ```
+```
+rika2.js書き換え
+var seikai= 0;
+seikai = seikai + mondai2("昆虫の足は何本？","6","６");
+seikai = seikai + mondai2("光合成では空気中の二酸化炭素を吸収し⚪︎⚪︎を放出しています、それは何でしょうか？","酸素","さんそ");
+tensu[2]= seikai;
+```
+```
+shakai2.js書き換え
+var seikai= 0;
+seikai = seikai + mondai2("北海道の県庁所在地は？","札幌","さっぽろ");
+seikai = seikai + mondai("日本で一番高い山は？","富士山");
+tensu[3]= seikai;
+```
