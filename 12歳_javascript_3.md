@@ -312,3 +312,11 @@ function mondai2(question,answer1,answer2){
   }
 }
 ```
+```
+kokugo2.js書き換え
+var seikai= 0;
+seikai= seikai + mondai2("「芬蘭」の読み仮名は？","フィンランド","ふぃんらんど");
+  alert("正解！");
+seikai = seikai + mondai("「細魚」の読み仮名は？","さより");
+tensu[1]= seikai;
+```
