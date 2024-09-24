@@ -334,3 +334,20 @@ seikai = seikai + mondai2("北海道の県庁所在地は？","札幌","さっ�
 seikai = seikai + mondai("日本で一番高い山は？","富士山");
 tensu[3]= seikai;
 ```
+```
+newquiz2.html書き換え
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <script src="hairetsu.js"></script>
+  <script src="konichiwa.js"></script>
+  <script src="mondai.js"></script>
+  <script src="sansu2.js"></script>
+  <script src="kokugo2.js"></script>
+  <script src="rika2.js"></script>
+  <script src="shakai2.js"></script>
+  <script src="goukei.js"></script>
+  <script src="zenmonseikai.js"></script>
+</html>
+```
