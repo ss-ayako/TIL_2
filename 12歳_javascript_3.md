@@ -288,3 +288,27 @@ seikai = seikai + mondai("7 × 35 = ",245);
 seikai = seikai + mondai("112 - 53 = ",59);
 tensu[0]= seikai; //点数を保存する
 ```
+答えが２パターンの場合に備えて書き換え  
+```
+function mondai(question,answer){
+  var kotae = prompt(question,"");
+  if(kotae == anser){
+    alert("正解！");
+    return 1;//正解なら１を返す
+  }else{
+    alert("ざんねん！");
+    return 0;//不正解なら０を返す
+  }
+}
+//answer1,answer2のどちらかと同じなら正解と表示するように
+function mondai2(question,answer1,answer2){
+  var kotae = prompt(question,"");
+  if(kotae == answer1||kotae == answer2){
+    alert("正解！");
+    return 1;
+  } else {
+    alert("ざんねん！");
+    return 0;
+  }
+}
+```
