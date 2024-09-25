@@ -407,6 +407,8 @@ while(true){
 }
 alert("全問正解おめでとう！！すごいね"+ tento +"さん");
 ```
+mondai(mondaibun,kotae)関数でまとめた  
+問題と答えは引数で渡す  
 ```
 sukkiri.js
 /*出題プログラム*/
