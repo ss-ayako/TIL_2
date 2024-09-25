@@ -351,3 +351,12 @@ newquiz2.html書き換え
   <script src="zenmonseikai.js"></script>
 </html>
 ```
+```
+fukuzatsu.js
+var n = prompt("おなまえは？","");while(ture){
+var k = prompt("3.14 * 2 =","");if(k !="6.28"){alert("はずれ。");continue;}alert("正解。");
+var k = prompt("では、南半球でクリスマスの時の季節は？","");if(k !="夏"){alert("はずれ。");continue;}alert("正解。");
+var k = prompt("楽譜で、音の一時的な休止を表す記号は？","");if (k !="休符"){alert("はずれ。");continue;}alert("正解。");
+var k = prompt("夏の大三角といえば、ベガとデネブと何？","");if (k !="アルタイル"){alert("はずれ。");continue;}alert("正解。");
+var k = prompt("2020年に予定されているオリンピック開催地は？","");if(k !="東京"){alert("はずれ。");continue;}alert("正解。");break;}alert("全問正解おめでとう！！すごいね"+ n +"さん");
+```
