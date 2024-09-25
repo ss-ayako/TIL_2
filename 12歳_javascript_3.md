@@ -432,3 +432,10 @@ mondai("2020年に予定されているオリンピック開催地は？","東�
 }
 alert("全問正解おめでとう！！すごいね！"+ tento +"さん");
 ```
+```
+sukkiri.html
+<html>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src ="sukkiri.js"></script>
+</html>
+```
