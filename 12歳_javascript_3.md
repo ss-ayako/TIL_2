@@ -407,3 +407,28 @@ while(true){
 }
 alert("全問正解おめでとう！！すごいね"+ tento +"さん");
 ```
+```
+sukkiri.js
+/*出題プログラム*/
+function mondai(mondaibun,kotae){
+  var answer = prompt(mondaibun,"");
+  if (answer != kotae){
+    alert("はずれ。");
+    return false;
+  }
+  alert("正解！");
+  return true;
+}
+/*問題全５問*/
+var tento = prompt("おなまえは？","");
+while(true){
+  if (mondai("3.14 * 2 =","6.28")== false||
+mondai("では、南半球でクリスマスの時の季節は？","夏")== false||
+mondai("夏の大三角形といえば、ベガとデネブと何？","アルタイル")== false||
+mondai("2020年に予定されているオリンピック開催地は？","東京")== false)
+  
+  continue;
+  break;
+}
+alert("全問正解おめでとう！！すごいね！"+ tento +"さん");
+```
