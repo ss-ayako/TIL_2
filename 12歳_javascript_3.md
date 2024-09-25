@@ -367,3 +367,43 @@ fukuzatsu.html
   <script src = "fukuzatsu.js"></script>
 </html>
 ```
+```
+kantan.js
+var tento = prompt("おなまえは？","");
+while(true){
+  var keisan = prompt("3.14 * 2 =","");
+  if(keisan !="6.28"){
+  alert("はずれ。");
+  continue;
+  }alert("正解。");
+
+  var kisetsu = prompt("では、南半球でクリスマスの時の季節は？","");
+  if(kisetsu !="夏"){
+  alert("はずれ。");
+  continue;
+  }alert("正解。");
+
+  var ongaku = prompt("楽譜で、音の一時的な休止を表す記号は？","");
+  if (ongaku !="休符"){
+  alert("はずれ。");
+  continue;
+  }
+  alert("正解。");
+
+  var seiza = prompt("夏の大三角といえば、ベガとデネブと何？","");
+  if (seiza !="アルタイル"){
+  alert("はずれ。");
+  continue;
+  }
+  alert("正解。");
+
+  var sports = prompt("2020年に予定されているオリンピック開催地は？","");
+  if(sports !="東京"){
+  alert("はずれ。");
+  continue;
+  }
+  alert("正解。");
+  break;
+}
+alert("全問正解おめでとう！！すごいね"+ tento +"さん");
+```
