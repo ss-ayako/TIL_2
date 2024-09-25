@@ -360,3 +360,10 @@ var k = prompt("楽譜で、音の一時的な休止を表す記号は？","");i
 var k = prompt("夏の大三角といえば、ベガとデネブと何？","");if (k !="アルタイル"){alert("はずれ。");continue;}alert("正解。");
 var k = prompt("2020年に予定されているオリンピック開催地は？","");if(k !="東京"){alert("はずれ。");continue;}alert("正解。");break;}alert("全問正解おめでとう！！すごいね"+ n +"さん");
 ```
+```
+fukuzatsu.html
+<html>
+  <meta charset = "UTF-8" />
+  <script src = "fukuzatsu.js"></script>
+</html>
+```
