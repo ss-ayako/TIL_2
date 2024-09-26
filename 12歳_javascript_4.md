@@ -7,3 +7,8 @@ confirmで「はい」「いいえ」のダイアログを出す
   alert("こんにちは！" +  name + "さん");
 </script>
 ```
+```
+function tasu(A,B){
+  return A + B;
+}
+```
