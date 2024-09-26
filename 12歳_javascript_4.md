@@ -12,3 +12,12 @@ function tasu(A,B){
   return A + B;
 }
 ```
+```
+<html>
+  <script t src = "tasu.js"></script>
+  <script>
+    C = tasu(5,2);
+    alert("5 + 2 =" + C);
+  </script>
+</html>
+```
