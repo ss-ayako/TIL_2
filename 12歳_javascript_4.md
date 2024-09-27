@@ -89,7 +89,7 @@ function hiku(A,B){
 ```
 <html>
   <script src ="tasu2.js"></script>
-  <script src ="hiku.js"></script>
+  <script src ="hiku2.js"></script>
   <script>
     tasu(5,2);
     hiku(10,5);
@@ -98,3 +98,7 @@ function hiku(A,B){
   </script>
 </html>
 ```
+変数Dを設定  
+これだと5 + 2 = 7   
+のあと10 - 5 =５  
+となる。  
