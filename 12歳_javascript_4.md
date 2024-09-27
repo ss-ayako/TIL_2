@@ -34,3 +34,10 @@ mojiretsu.html
   </script>
 </html>
 ```
+```
+tasu2.js
+var C;
+function tasu(A,B){
+  C = A + B;
+}
+```
