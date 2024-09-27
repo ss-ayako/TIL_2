@@ -55,3 +55,10 @@ suuji2.html
 returnを使って戻り値を受け取っていない  
 メリット：呼び出しして利用できて便利  
 デメリット：どこからでも書き換えできる  
+```
+hiku.js
+var C;
+function hiku(A,B){
+  C = A - B;
+}
+```
