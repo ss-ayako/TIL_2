@@ -41,3 +41,13 @@ function tasu(A,B){
   C = A + B;
 }
 ```
+```
+suuji2.html
+<html>
+  <script src="tasu.js"></script>
+  <script>
+    tasu(5,2);
+    alert("5 + 2 ="+ C);
+  </script>
+</html>
+```
