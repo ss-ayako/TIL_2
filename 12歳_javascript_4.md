@@ -79,4 +79,10 @@ suuji3.html
 のあと10 - 5 =５  
 となる。  
 同じ変数Cを使っているから  
-
+```
+hiku2.js
+var C;
+function hiku(A,B){
+  C = A - B;
+}
+```
