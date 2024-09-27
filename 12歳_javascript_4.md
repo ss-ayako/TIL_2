@@ -62,3 +62,21 @@ function hiku(A,B){
   C = A - B;
 }
 ```
+```
+suuji3.html
+<html>
+  <script src ="tasu2.js"></script>
+  <script src ="hiku.js"></script>
+  <script>
+    tasu(5,2);
+    hiku(10,5);
+    alert("5 + 2 =" + C);
+    alert("10 - 5 =" + C);
+  </script>
+</html>
+```
+これだと5 + 2 = 5  
+のあと10 - 5 =５  
+となる。  
+同じ変数Cを使っているから  
+
