@@ -135,3 +135,12 @@ function local2(){
   alert(hensu);
 }
 ```
+```
+local.html書き換え
+<html>
+  <script src="locallocal.js"></script>
+  <script>
+    local();
+  </script>
+</html>
+```
