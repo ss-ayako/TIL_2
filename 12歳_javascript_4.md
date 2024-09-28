@@ -104,3 +104,8 @@ function hiku(A,B){
 となる。  
 グローバル変数の欠点：思わぬところで書き換えられる  
 ```
+function local(){
+  var hensu = "へんすう";
+  alert(hensu);
+}
+```
