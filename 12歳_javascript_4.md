@@ -115,6 +115,7 @@ hensuは関数localの中にある
 関数の中でしか使われない  
 これがローカル変数！！  
 ```
+local.html
 <html>
   <script src="local.js"></script>
   <script>
