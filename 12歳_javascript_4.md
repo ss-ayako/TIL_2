@@ -110,6 +110,10 @@ function local(){
   alert(hensu);
 }
 ```
+hensuは関数localの中にある  
+関数の中で定義しているので  
+関数の中でしか使われない  
+これがローカル変数！！  
 ```
 <html>
   <script src="local.js"></script>
