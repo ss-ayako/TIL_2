@@ -168,3 +168,17 @@ function local(){
 }
 alert(hensu);
 ```
+```
+<html>
+  <meta charset = "UTF-8" />
+  <script src = "local2.js"></script>
+  <script>
+    local();
+  </script>
+</html>
+```
+真っ白  
+検証ツールで確認  
+関数の外でalert(hensu);としたため  
+***
+
