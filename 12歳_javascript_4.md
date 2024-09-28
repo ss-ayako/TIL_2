@@ -161,3 +161,10 @@ local() に戻り
 ゲームの点数や残り時間などはグローバル変数  
 ***
 # ミスを見つけよう  
+```
+local2.js
+function local(){
+  var hensu = "へんすう";
+}
+alert(hensu);
+```
