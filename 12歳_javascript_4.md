@@ -123,7 +123,7 @@ hensuは関数localの中にある
 </html>
 ```
 ```
-lovallocal.js
+locallocal.js
 function local(){
   var hensu = "へんすう";
   local2();
