@@ -122,3 +122,15 @@ hensuは関数localの中にある
   </script>
 </html>
 ```
+```
+lovallocal.js
+function local(){
+  var hensu = "へんすう";
+  local2();
+  alert(hensu);
+}
+function local2(){
+  var hensu = "2つ目のへんすう";
+  alert(hensu);
+}
+```
