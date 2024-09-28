@@ -110,4 +110,11 @@ function local(){
   alert(hensu);
 }
 ```
-
+```
+<html>
+  <script src="local.js"></script>
+  <script>
+    local();
+  </script>
+</html>
+```
