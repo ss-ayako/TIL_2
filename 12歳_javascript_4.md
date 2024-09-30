@@ -198,3 +198,28 @@ tento.html
   </body>
 </html>
 ```
+```
+tento.html書き換え
+<html>
+  <head>
+    <title>大きくする</title>
+    <title>テントくんだ！</title>
+    <style>
+      body{
+        text-align:center;
+      }
+    </style>
+    <script>
+      function big(){
+        document.getElementById("gazo").style.width = "400px";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>テントくんだ！</h1>
+    <div><img id="gazo" src="IMG_8163.JPG" style="width:200px;"></div>
+    <br>
+    <button onClick="big()">大きくする</button>
+  </body>
+</html>
+```
