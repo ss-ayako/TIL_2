@@ -181,4 +181,20 @@ alert(hensu);
 検証ツールで確認  
 関数の外でalert(hensu);としたため  
 ***
-
+```
+tento.html
+<html>
+  <head>
+    <title>テントくんだ！</title>
+    <style>
+      h1,div{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>テントくんだ！</h1>
+    <div><img src="tento.png"></div>
+  </body>
+</html>
+```
