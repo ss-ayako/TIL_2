@@ -263,3 +263,21 @@ function ite(){
   };
 }
 ```
+```
+<html>
+  <head>
+    <title>たたけ！</title>
+    <script type="text/javascript" src="shaberu.js"></script>
+    <style>
+      body{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>たたけ！</h1>
+    <div><img id="tento" src="tento.png"></div>
+    <br>
+  </body>
+</html>
+```
