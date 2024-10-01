@@ -249,3 +249,17 @@ tento.html書き換え
   </body>
 </html>
 ```
+```
+var mouse;
+
+window.onload = function(){
+  ite();
+};
+
+function ite(){
+  mouse = document.getElementById("tento");
+  mouse.onclick = function(){
+    alert("いてっ！");
+  };
+}
+```
