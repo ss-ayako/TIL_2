@@ -263,6 +263,7 @@ function ite(){
   };
 }
 ```
+絵が変わるプログラム  
 ```
 <html>
   <head>
@@ -295,4 +296,24 @@ function ite(){
     mouse.src = "naki.png";
   };
 }
+```
+文字を変える  
+```
+tento.html書き換え
+<html>
+  <head>
+    <title>たたけ！</title>
+    <script type="text/javascript" src="moji.js"></script>
+    <style>
+      body{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>たたけ！</h1>
+    <div><img id="tento" src="tento.png"></div>
+    <br>
+  </body>
+</html>
 ```
