@@ -311,9 +311,22 @@ tento.html書き換え
     </style>
   </head>
   <body>
-    <h1>たたけ！</h1>
+    <h1 id="moji">たたけ！</h1>
     <div><img id="tento" src="tento.png"></div>
     <br>
   </body>
 </html>
+```
+```
+var mouse;
+window.onload=function(){
+  ite();
+};
+
+function ite(){
+  mouse = document.getElementById("moji");
+  mouse.onclick = function(){
+    mouse.innerHTML = "あんまりカチカチするなー！！";
+  };
+}
 ```
