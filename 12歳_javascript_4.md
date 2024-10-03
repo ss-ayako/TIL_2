@@ -330,6 +330,7 @@ function ite(){
   };
 }
 ```
+色変えて大きさ変える  
 ```
 var mouse;
 
