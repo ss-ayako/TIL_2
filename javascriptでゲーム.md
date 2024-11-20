@@ -180,3 +180,107 @@ htmlの基礎
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function jikkan(year){
+        let str;
+        switch(year % 10){
+          case 0:
+            str = "庚";
+            break;
+          case 1:
+            str = "辛";
+            break;
+          case 2:
+            str = "壬";
+            break; 
+          case 3:
+            str = "癸";
+            break;
+          case 4:
+            str = "甲";
+            break;
+          case 5:
+            str = "乙";
+            break;
+          case 6:
+            str = "丙";
+            break;  
+            case 7:
+            str = "丁";
+            break;
+          case 8:
+            str = "戊";
+            break;
+          case 9:
+            str = "己";
+            break;
+        }
+        return str;
+      }
+
+      function junishi(year){
+        let str;
+        switch(year % 12){
+          case 0:
+            str = "申";
+            break;
+          case 1:
+            str = "酉";
+            break;
+          case 2:
+            str = "戌";
+            break; 
+          case 3:
+            str = "亥";
+            break;
+          case 4:
+            str = "子";
+            break;
+            case 5:
+            str = "丑";
+            break;
+          case 6:
+            str = "寅";
+            break;
+          case 7:
+            str = "卯";
+            break;
+          case 8:
+            str = "辰";
+            break;
+          case 9:
+            str = "巳";
+            break;
+          case 10:
+            str = "午";
+            break;
+          case 11:
+            str = "未";
+            break;
+        }
+        return str;
+      }
+
+      function calc(){
+        let year = document.getElementById("year").value;
+        let tenkan = jikkan(parseInt(year, 10));
+        let chizhi = junishi(parseInt(year, 10));
+        document.getElementById("e").textContent = tenkan + chizhi;
+        document.getElementById("y").textContent = year;
+      }
+    </script>
+  </head>
+  <body>
+    <h2><span id="y"></span>年の干支は<span id="e"></span></h2>
+    <p>
+      <input id="year" value="2023">
+      <button onclick="calc()">計算</button>
+    </p>
+  </body>
+</html>
+```
