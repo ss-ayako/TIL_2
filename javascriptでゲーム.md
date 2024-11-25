@@ -290,3 +290,27 @@ htmlの基礎
 let subjects = ["数学","国語","社会","理科"];
 let week = ["月","火","水","木","金","土"];
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function calcSum(){
+        let max = document.getElementById("max").value;
+        let total = 0;
+        for (let i = 1; i <= max; i++) {
+          total += i; 
+        }
+        document.getElementById("val").textContent = max;
+        document.getElementById("sum").textContent = total;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>1から<span id="val">10</span>の合計は<span id="sum"></span></h2>
+    <input id ="max" value="10">
+    <button onclick="calcSum()">合計</button>
+  </body>
+</html>
+```
