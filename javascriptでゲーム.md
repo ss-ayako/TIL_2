@@ -399,3 +399,20 @@ for文は事前に回数が決まっている時に便利
   </body>
 </html>
 ```
+```
+<script>
+  let count = 0;
+
+  function test(e){
+    let a ="hello";
+    for(let i =0; i < 3;i++){
+      console.log("count=" + count + "i=" + i);
+      console.log(a)
+    }
+    count++;
+  }
+  function inti(){
+    count = 10;
+  }
+</script>
+```
