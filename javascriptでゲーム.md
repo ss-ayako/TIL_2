@@ -375,3 +375,27 @@ for文は事前に回数が決まっている時に便利
   </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <script>
+    function c2f(c){
+      return c * 9/5 + 32;
+    }
+
+    function convert(){
+      let c = document.getElementById("celsius").value;
+      let f = c2f(c);
+      let s = "摂氏："+c+"度　華氏："+ f +"度";
+      document.getElementById("result").textConcent = s;
+    }
+  </script>
+  </head>
+  <body>
+    <input id="celsius" type="range" min="0" max="100" onchenge="convert()">
+    <p id="reslt"></p>
+  </body>
+</html>
+```
