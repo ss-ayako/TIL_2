@@ -457,3 +457,29 @@ let car = {
   </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      let car ={
+        speed: 100,
+        oil: 50,
+      };
+      function checkSpeed(){
+        document.getElementById("speed").textContent = car.speed;
+      }
+      function checkOil(){
+        document.getElementById("oil").textContent = car.oil;
+      }
+    </script>
+    </head>
+  <body>
+    <button onclick="checkSpeed()">スピードチェック</button>
+    <p>スピードは<span id="speed"></span>km</p>
+    <button onclick="checkOil()">ガソリンチェック</button>
+    <p>ガソリンの量は<span id="oil"></span>L</p>
+  </body>
+</html>
+```
