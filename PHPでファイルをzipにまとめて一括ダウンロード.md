@@ -115,4 +115,4 @@ if ($zip->open($zip_filename, ZipArchive::CREATE) === TRUE) {
 * **header関数:** 送り状を貼る作業
 * **readfile関数:** 宅配便のトラックに乗せる作業
 ***
-
+***
