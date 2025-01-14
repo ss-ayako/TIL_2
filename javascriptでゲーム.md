@@ -604,3 +604,24 @@ let car = {
   </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function Pen(color,length){
+        this.color = color;
+        this.length = length;
+        this.draw = function(){
+          this.length -= 1;
+        };
+      }
+      let penR = new Pen("red",15);
+      let penG = new Pen("green",15);
+      let penB = new Pen("blue",8);
+      let pen = penR
+    </script>
+  </head>
+</html>
+```
