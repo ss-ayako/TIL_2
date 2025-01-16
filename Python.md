@@ -10,7 +10,7 @@ zsh: command not found: python
 ***
 今後の流れ  
 「Homebrew」をインストールする  
-「Homebrew」を用いて「pyenv」をインストールする  
+「Homebrew」を用いて「pyenv パイエンブ」をインストールする  
 「pyenv」を用いてPythonをインストールする 
 ***
 「Homebrew」インストールされてるか？
@@ -44,3 +44,13 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 source ~/.zshrc  
 これでpyenvの設定は完了！  
 ***
+インストールしたpyenvを用いてPythonをインストール  
+```
+pyenv install --list
+```
+現在インストールが可能なPythonのバージョン  
+***
+pyenv install 3.10.4インストール  
+```
+pyenv install 3.10.4
+```
