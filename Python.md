@@ -57,3 +57,22 @@ pyenv install 3.10.4インストール
 ```
 pyenv install 3.10.4
 ```
+***
+現在インストールされているPythonを一覧で確認  
+```
+pyenv versions
+```
+*system (set by /Users/ss002/.pyenv/version)  
+  3.10.4
+  と表示された
+  まだこの状態では 3.10.4 を使用できない
+  今回インストールしたバージョンのPythonを使用するように設定を変更
+  ```
+  pyenv global 3.10.4
+  ```
+  確認！
+  ```
+  python --version
+  ```
+  Python 3.10.4と出た
+  ***
