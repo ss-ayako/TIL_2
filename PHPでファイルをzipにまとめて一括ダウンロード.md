@@ -116,3 +116,6 @@ if ($zip->open($zip_filename, ZipArchive::CREATE) === TRUE) {
 * **readfile関数:** 宅配便のトラックに乗せる作業
 ***
 ***
+見た目のボタンがずれていたのは全角の空欄が入っていたから  
+再発防止のためにはVScodeで確認、Safariで要素の詳細を確認すること  
+***
