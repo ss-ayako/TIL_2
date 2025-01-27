@@ -14,3 +14,4 @@
 - import UIKit アプリのUIを作る上で標準的なキットが入っている
 - ファイルの先頭にはimport UIKitと書くことが多い
 - let 定数
+- var 変数
