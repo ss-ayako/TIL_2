@@ -695,3 +695,5 @@ let car = {
   </body>
 </html>
 ```
+- <ol> (順序付きリスト) 
+- DOM JavascriptからHTML文書を更新する方法  
