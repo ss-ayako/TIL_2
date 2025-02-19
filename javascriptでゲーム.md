@@ -749,3 +749,65 @@ DOM JavascriptからHTML文書を更新する方法
   </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      #board{
+        background-color: black;
+      }
+      /* #board → <table>（盤面）の背景色を黒に設定 */
+
+      td.cell{
+        background-color: pink;
+        width: 30px;
+        height: 30px;
+      }
+      /* .cell（各マス）→ 背景を緑 (green)、サイズを 30px × 30px に指定 */
+
+    </style>
+    <script>
+      function init(){
+  let b = document.getElementById("board"); // <table> を取得
+  for(let i = 0; i < 3; i++){ // 8行を作成
+    let tr = document.createElement("tr"); // <tr> (行) を作成
+    for(let j = 0; j < 3; j++){ // 各行に8個のセルを追加
+      let td = document.createElement("td"); // <td> (セル) を作成
+      td.className = "cell"; // クラスを "cell" に設定
+      td.id = "cell" + i + j; // 各セルにユニークなIDを設定 (例: "cell00", "cell07", ...)
+      td.onclick = clicked; // クリック時に `clicked` 関数を実行
+      tr.appendChild(td); // <tr> に <td> を追加
+    }
+    b.appendChild(tr); // <table> に <tr> を追加
+  }
+}
+let turn = 0; // 0: ○, 1: ×
+// turn 変数を宣言し、0で初期化
+// この変数は、○と×のどちらのターンであるかを管理
+
+function clicked(e) {
+  const cell = e.target; // クリックされたセル要素
+
+  // セルが空の場合のみ処理を行う
+  if (cell.textContent === "") {
+    if (turn === 0) {
+      cell.textContent = "○";
+      turn = 1;// 次のターンを×にする
+    } else {
+      cell.textContent = "×";
+      turn = 0;// 次のターンを○にする
+    }
+  }
+}
+
+    </script>
+  </head>
+  <body onload="init()">
+    <!-- ページ読み込み時に init() を自動実行 し、盤面を生成 -->
+    <table id="board"></table>
+    <h2 id="info"></h2>
+  </body>
+</html>
+```
