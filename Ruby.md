@@ -31,6 +31,7 @@ class PostsController < ApplicationController
   
 end
 ```
+***
 ```
 class UsersController < ApplicationController
   def index
