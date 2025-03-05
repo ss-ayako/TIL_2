@@ -675,3 +675,9 @@ end
   
 end
 ```
+```
+class Like < ApplicationRecord
+  validates:user_id,{presence:ture}
+  validates:post_id,{presence:ture}
+end
+```
