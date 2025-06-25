@@ -22,3 +22,7 @@ $(function() {
   
 });
 ```
+```
+  <!-- scriptタグを用いて、script.jsを読み込んでください -->
+  <script src="script.js"></script>
+```
