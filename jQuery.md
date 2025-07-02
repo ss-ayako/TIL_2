@@ -26,3 +26,12 @@ $(function() {
   <!-- scriptタグを用いて、script.jsを読み込んでください -->
   <script src="script.js"></script>
 ```
+```
+$(function() {
+  // 「#login-show」要素に対するclickイベントを作成してください
+  $('#login-show').click(function(){
+   $('#login-modal').fadeIn(); 
+  });
+  
+});
+```
