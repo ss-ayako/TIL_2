@@ -130,3 +130,8 @@ hasClassメソッドは、引数に指定したクラスを、オブジェクト
       // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
        $(this).find('span').text('-');
       ```
+```
+.text-active {            
+ display: block;            
+ }
+                    ```
