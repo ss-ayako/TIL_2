@@ -134,4 +134,14 @@ hasClassメソッドは、引数に指定したクラスを、オブジェクト
 .text-active {            
  display: block;            
  }
-                    ```
+```
+```
+ $('.faq-list-item').click(function() {
+  var $answer = $(this).find('.answer');
+    if ($answer.hasClass('open')) {
+      $answer.removeClass('open');
+    } else {
+      $answer.addClass('open');
+    }
+  }); 
+  ```
