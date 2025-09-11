@@ -285,3 +285,10 @@ $(function() {
   });
 });
 ```
+```
+  $('.option-btn').click(function() {
+  var optionText= $(this).text();
+  $('#text-form').val(optionText+'が好きな理由は、');
+  }); 
+});
+```
