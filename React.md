@@ -141,3 +141,6 @@ class App extends React.Component {
 
 export default App;
 ```
+```
+this.setState({プロパティ名: 変更する値})とすることで、指定されたプロパティに対応するstateの値が変更される
+```
