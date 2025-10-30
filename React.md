@@ -202,3 +202,17 @@ class App extends React.Component {
 
 export default App;
 ```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React App</title>
+  </head>
+  <body>
+    <!-- idを指定してください -->
+    <div id="root"></div>
+    
+    <script src="bundle.js"></script>
+  </body>
+</html>
+```
