@@ -410,3 +410,24 @@ class App extends React.Component {
 
 export default App;
 ```
+```
+// Reactをインポートしてください
+import React from 'react';
+
+// Lessonクラスを定義してください
+class Lesson extends React.Component{
+
+// Lessonクラスをexportしてください
+render(){
+  return(
+    <div className='lesson-card'>
+        <div className='lesson-item'>
+          <p></p>
+          <img />
+        </div>
+      </div>
+    );
+}
+}
+export default Lesson;
+```
