@@ -2,3 +2,4 @@ Node.jsはJavaScriptを使ってサーバーサイド開発を行えるように
 list-app $ npm install express  
 const express = require('express');  
 const app = express();  
+list-app $ node app.js  
