@@ -69,3 +69,4 @@ Laravelのロゴを変更
 ステップ46：roomsテーブルにcapacityカラムを追加
 ステップ47：マイグレーションファイルを編集
 ```
+48migration
