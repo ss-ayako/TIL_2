@@ -98,3 +98,13 @@ Laravelのロゴを変更
 ステップ4：.envファイルを編集
 ステップ5：マイグレーションファイルの修正
 ```
+```
+汎用性のあるカラム名に  
+＊マイグレーションファイルの修正  
+　　・create_rooms_table → resourcesテーブルに変更  
+　　・create_bookings_table → 時間帯予約に変更  
+
+＊不要なマイグレーションファイルを削除  
+　　・add_capacity_to_rooms_table  
+　　・add_check_out_date_to_bookings_table
+```
